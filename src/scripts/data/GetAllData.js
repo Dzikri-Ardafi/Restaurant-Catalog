@@ -6,7 +6,7 @@ const getRestaurantData = (allData) => (
       .map(
         (data) => ` 
           <div class= "card">
-          <img class="imgCard lazyload" alt="${data.name}" src="${Config.baseImgURL}medium/${data.pictureId}" data-src="${Config.baseImgURL}medium/${data.pictureId}" alt="${data.name}" />
+          <img class="imgCard lazyload" alt="${data.name}" data-src="${Config.baseImgURL}medium/${data.pictureId}" alt="${data.name}" />
           <div class="detail">
               <div class="rating">
                   <h3>

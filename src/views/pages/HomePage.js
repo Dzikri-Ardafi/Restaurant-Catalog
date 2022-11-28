@@ -24,7 +24,6 @@ const HomePage = {
           <source media="(max-width: 600px") srcset="./images/resizedImage/hero-image_2-small.jpg">
             <img
               class="jumbotronImg lazyload"
-              data-src="./images/resizedImage/hero-image_2-small.jpg"
               src="./images/resizedImage/hero-image_2-large.jpg"
               alt="hero image 2"
             />
